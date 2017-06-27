@@ -124,6 +124,7 @@
             this.btnSendMsg.TabIndex = 9;
             this.btnSendMsg.Text = "发送";
             this.btnSendMsg.UseVisualStyleBackColor = true;
+            this.btnSendMsg.Click += new System.EventHandler(this.btnSendMsg_Click);
             // 
             // Form1
             // 
